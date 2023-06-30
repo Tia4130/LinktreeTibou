@@ -1,20 +1,19 @@
 import './App.css';
+import { Route, Routes } from "react-router-dom";
 
-//IMPORT IMAGES
-import tibouPerfume from './image/logo3.png';
-import tiboulb from './image/logo33-100.png'
+//COMPONENTS
+import Main from './components/Main';
+import Tiboulb from './components/Tiboulb';
+import TibouPerfume from './components/TibouPerfume';
+
 function App() {
   return (
-    <div className="App">
-      <div className='container'>
-        <div className='tiboulb'>
-          <img src={tiboulb} alt="tibou.lb" />
-        </div>
-
-        <div className='tibouperfume'>
-          <img src={tibouPerfume} alt="tibou perfume" />
-        </div>
-      </div>
+    <div className="container">
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path='/tiboulb' element={<Tiboulb />} />
+        <Route path='/tibouperfume' element={<TibouPerfume />} />
+      </Routes>
     </div>
   );
 }
