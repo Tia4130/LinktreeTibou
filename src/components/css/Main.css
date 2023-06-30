@@ -17,9 +17,10 @@
     margin: auto;
     width: 100%;
   }
-
+  
 @media (max-width: 560px) {
  .logoimage{
   height: 200px;
+  margin-block: 50px;
  }
 }

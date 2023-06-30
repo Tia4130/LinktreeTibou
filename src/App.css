@@ -5,7 +5,7 @@
 
 .container{
   background-image: url("/src/image/wallpaper.jpg");
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
-  align-items: center;
+  height: 100vh;
 }
