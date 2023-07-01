@@ -8,7 +8,10 @@ import './css/Main.css';
 
 function Main() {
     return (
-        <div className="Main">
+        <div className="tiboulbContainer">
+            <div className='textTibou'>
+                Welcome to our Linktree hub, your gateway to effortless navigation and discovering everything we have to offer.
+            </div>
             <div className='tiboulb'>
                 <Link to='/tiboulb'><img src={tiboulb} className='logoimage' alt="tibou.lb" /></Link>
             </div>

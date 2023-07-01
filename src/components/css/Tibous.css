@@ -8,4 +8,13 @@
 
 .content{
     cursor: pointer;
+    position: relative;
+}
+
+.imagelogo{
+    width: 50%;
+    margin-block:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
