@@ -4,10 +4,10 @@
 }
 
 .container{
-  background-image: url("/src/image/wallpaper.jpg");
+  background-image: url("/src/image/wallpaper1.jpg");
   /* background-repeat: no-repeat; */
   background-size: cover;
-  height: 100vh;
+  height: auto;
 }
 
 @media (max-width: 767px) {
