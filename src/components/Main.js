@@ -15,9 +15,9 @@ function Main() {
             <motion.div
                 className='textTibou'
 
-
             >
-                Welcome to our Linktree hub, your gateway to effortless navigation and discovering everything we have to offer.
+                <div className='textinside'>Welcome to our Linktree hub,</div>
+                <div>your gateway to effortless navigation</div> and discovering everything we have to offer.
             </motion.div>
             <motion.div
                 className='tiboulb'
