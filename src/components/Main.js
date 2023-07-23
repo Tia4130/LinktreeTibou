@@ -12,10 +12,7 @@ import './css/Main.css';
 function Main() {
     return (
         <motion.div className="tiboulbContainer">
-            <motion.div
-                className='textTibou'
-
-            >
+            <motion.div className='textTibou'>
                 <div className='textinside'>Welcome to our Linktree hub,</div>
                 <div>your gateway to effortless navigation</div> and discovering everything we have to offer.
             </motion.div>
@@ -32,9 +29,6 @@ function Main() {
                         src={tiboulb}
                         className='logoimage'
                         alt="tibou.lb"
-                    // whileHover={{ scale: 1.2 }}
-                    // whileTap={{ scale: 2 }}
-                    // transition={{ duration: 5 }}
                     />
                 </Link>
             </motion.div>
@@ -52,9 +46,6 @@ function Main() {
                         className='logoimage'
                         src={tibouPerfume}
                         alt="tibou perfume"
-                    // whileHover={{ scale: 1.2 }}
-                    // whileTap={{ scale: 2 }}
-                    // transition={{ duration: 5 }}
                     />
                 </Link>
             </motion.div>

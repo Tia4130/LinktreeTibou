@@ -1,5 +1,7 @@
-import './App.css';
 import { Route, Routes } from "react-router-dom";
+
+//CSS
+import './App.css';
 
 //COMPONENTS
 import Main from './components/Main';

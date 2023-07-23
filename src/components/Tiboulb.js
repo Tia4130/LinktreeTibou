@@ -1,7 +1,9 @@
 import React from 'react'
-import '../components/css/Tibous.css';
 import { Link } from 'react-router-dom';
 import { motion } from "framer-motion";
+
+//COMPONENT
+import '../components/css/Tibous.css';
 
 //IMAGE
 import tiktok from '../image/tiktok.png';

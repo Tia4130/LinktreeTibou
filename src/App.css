@@ -5,7 +5,6 @@
 
 .container{
   background-image: url("/src/image/wallpaper1.jpg");
-  /* background-repeat: no-repeat; */
   background-size: cover;
   height: auto;
 }
