@@ -11,7 +11,7 @@ import './css/Main.css';
 
 function Main() {
     return (
-        <motion.div className="tiboulbContainer">
+        <motion.div className="tiboulbContainer1">
             <motion.div className='textTibou'>
                 <div className='textinside'>Welcome to our Linktree hub,</div>
                 <div>your gateway to effortless navigation</div> and discovering everything we have to offer.
