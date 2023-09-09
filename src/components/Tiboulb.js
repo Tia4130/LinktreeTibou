@@ -8,7 +8,7 @@ import '../components/css/Tibous.css';
 //IMAGE
 import tiktok from '../image/tiktok.png';
 import insta from '../image/insta.png';
-import backArrow from '../image/arrow1.png';
+import backArrow from '../image/arrow.png';
 
 function Tiboulb() {
     return (
